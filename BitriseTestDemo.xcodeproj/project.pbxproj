@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26F409479E90F1EEE1D67BC2 /* Pods_BitriseTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3919D5E089D01A41CCC6BF41 /* Pods_BitriseTestDemo.framework */; };
 		F13999D021FABC2100347940 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13999CF21FABC2100347940 /* AppDelegate.m */; };
 		F13999D321FABC2100347940 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13999D221FABC2100347940 /* ViewController.m */; };
 		F13999D621FABC2100347940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13999D421FABC2100347940 /* Main.storyboard */; };
@@ -62,7 +61,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F409479E90F1EEE1D67BC2 /* Pods_BitriseTestDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
