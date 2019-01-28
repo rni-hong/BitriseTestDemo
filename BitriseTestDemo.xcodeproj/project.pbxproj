@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBDA292C48EE3A2D4839D642 /* Pods_BitriseTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0377DC8CCCD1AD7280A8D241 /* Pods_BitriseTestDemo.framework */; };
 		F13999D021FABC2100347940 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13999CF21FABC2100347940 /* AppDelegate.m */; };
 		F13999D321FABC2100347940 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13999D221FABC2100347940 /* ViewController.m */; };
 		F13999D621FABC2100347940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13999D421FABC2100347940 /* Main.storyboard */; };
@@ -35,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0377DC8CCCD1AD7280A8D241 /* Pods_BitriseTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitriseTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CAEB3CAA2824B4217E8990 /* Pods-BitriseTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitriseTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitriseTestDemo/Pods-BitriseTestDemo.release.xcconfig"; sourceTree = "<group>"; };
-		3919D5E089D01A41CCC6BF41 /* Pods_BitriseTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitriseTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7503D5FE0C415E2574F64807 /* Pods-BitriseTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitriseTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitriseTestDemo/Pods-BitriseTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F13999CB21FABC2100347940 /* BitriseTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitriseTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13999CE21FABC2100347940 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDA292C48EE3A2D4839D642 /* Pods_BitriseTestDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +86,7 @@
 		28042DF494757D054A94D5C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3919D5E089D01A41CCC6BF41 /* Pods_BitriseTestDemo.framework */,
+				0377DC8CCCD1AD7280A8D241 /* Pods_BitriseTestDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
