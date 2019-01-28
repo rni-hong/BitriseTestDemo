@@ -185,7 +185,6 @@
 				F13999DF21FABC2300347940 /* Sources */,
 				F13999E021FABC2300347940 /* Frameworks */,
 				F13999E121FABC2300347940 /* Resources */,
-				F1F0F01C21FEDFAB00CEE334 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -204,7 +203,6 @@
 				F13999EA21FABC2300347940 /* Sources */,
 				F13999EB21FABC2300347940 /* Frameworks */,
 				F13999EC21FABC2300347940 /* Resources */,
-				F1F0F01D21FEDFB900CEE334 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -309,42 +307,6 @@
 			showEnvVarsInLog = 0;
 		};
 		F1F0F01B21FED0A800CEE334 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" ef19efe2b4d46decfc8e256f068939ede004f742 b2afb0c446f7b51bc91fab95e8b2b3def431f313b71daeef7691c452526ecdfd\n";
-		};
-		F1F0F01C21FEDFAB00CEE334 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" ef19efe2b4d46decfc8e256f068939ede004f742 b2afb0c446f7b51bc91fab95e8b2b3def431f313b71daeef7691c452526ecdfd\n";
-		};
-		F1F0F01D21FEDFB900CEE334 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 8;
 			files = (
